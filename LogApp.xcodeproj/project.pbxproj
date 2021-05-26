@@ -13,6 +13,7 @@
 		CEA31E12265D75D700E5E6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA31E10265D75D700E5E6C6 /* Main.storyboard */; };
 		CEA31E14265D75D900E5E6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA31E13265D75D900E5E6C6 /* Assets.xcassets */; };
 		CEA31E17265D75D900E5E6C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA31E15265D75D900E5E6C6 /* LaunchScreen.storyboard */; };
+		CEA31E1F265E905200E5E6C6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA31E1E265E905200E5E6C6 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEA31E13265D75D900E5E6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA31E16265D75D900E5E6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA31E18265D75D900E5E6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA31E1E265E905200E5E6C6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CEA31E0A265D75D700E5E6C6 /* AppDelegate.swift */,
 				CEA31E0C265D75D700E5E6C6 /* SceneDelegate.swift */,
 				CEA31E0E265D75D700E5E6C6 /* ViewController.swift */,
+				CEA31E1E265E905200E5E6C6 /* WelcomeViewController.swift */,
 				CEA31E10265D75D700E5E6C6 /* Main.storyboard */,
 				CEA31E13265D75D900E5E6C6 /* Assets.xcassets */,
 				CEA31E15265D75D900E5E6C6 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				CEA31E0F265D75D700E5E6C6 /* ViewController.swift in Sources */,
 				CEA31E0B265D75D700E5E6C6 /* AppDelegate.swift in Sources */,
+				CEA31E1F265E905200E5E6C6 /* WelcomeViewController.swift in Sources */,
 				CEA31E0D265D75D700E5E6C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
