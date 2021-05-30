@@ -39,6 +39,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE01E3FD2663C50300142208 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE01E3FE2663C51F00142208 /* ViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				CEA31E0E265D75D700E5E6C6 /* ViewController.swift */,
+				CEA31E1E265E905200E5E6C6 /* WelcomeViewController.swift */,
+			);
+			path = ViewContollers;
+			sourceTree = "<group>";
+		};
+		CE01E3FF2663C52F00142208 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA31E13265D75D900E5E6C6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE01E4002663C56000142208 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CEA31E10265D75D700E5E6C6 /* Main.storyboard */,
+				CEA31E15265D75D900E5E6C6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		CEA31DFE265D75D700E5E6C6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +91,12 @@
 		CEA31E09265D75D700E5E6C6 /* LogApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE01E4002663C56000142208 /* Storyboards */,
+				CE01E3FF2663C52F00142208 /* Resources */,
+				CE01E3FE2663C51F00142208 /* ViewContollers */,
+				CE01E3FD2663C50300142208 /* Models */,
 				CEA31E0A265D75D700E5E6C6 /* AppDelegate.swift */,
 				CEA31E0C265D75D700E5E6C6 /* SceneDelegate.swift */,
-				CEA31E0E265D75D700E5E6C6 /* ViewController.swift */,
-				CEA31E1E265E905200E5E6C6 /* WelcomeViewController.swift */,
-				CEA31E10265D75D700E5E6C6 /* Main.storyboard */,
-				CEA31E13265D75D900E5E6C6 /* Assets.xcassets */,
-				CEA31E15265D75D900E5E6C6 /* LaunchScreen.storyboard */,
 				CEA31E18265D75D900E5E6C6 /* Info.plist */,
 			);
 			path = LogApp;
